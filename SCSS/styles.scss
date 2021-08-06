@@ -153,6 +153,7 @@ footer{
     @include formulario;
     color: antiquewhite;
     text-align: center;
+    font-size: 20px;
 }
 
 .input {
@@ -178,14 +179,13 @@ textarea{
     margin-left: 30px;
     margin-top: 10px;
     text-align: center;
+    font-size: 20px;
 }
 
-.botonFormulario{
-    margin-left: 85px;
-    margin-right: 30px;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 30px;
+.botonesFormulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
 }
 
 /*----footer------*/
@@ -276,11 +276,6 @@ textarea{
     margin-left: 90px;
     margin-right: 90px;
     margin-bottom: 20px;
-}
-
-.botonFormulario{
-    margin-left: 300px;
-    margin-right: 30px;
 }
 
 /*----footer------*/
@@ -414,8 +409,3 @@ textarea{
     margin-bottom: 10px;
     font-size: 35px;
 }
-
-/*----formulario---
-.label{
-    font-size: 30px;
-}*/
