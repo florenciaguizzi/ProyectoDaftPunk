@@ -267,8 +267,6 @@ textarea {
     margin-bottom: 30px; }
   .imagen1 {
     grid-area: imagen1; }
-  .imagen1:hover {
-    transform: scale(1.5, 1.5); }
   .imagen2 {
     grid-area: imagen2; }
   .imagen2:hover {
